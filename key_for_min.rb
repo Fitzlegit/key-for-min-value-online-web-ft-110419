@@ -7,9 +7,7 @@ def key_for_min_value(name_hash)
     new_name = ""
   
   name_hash.collect do |name, value|
-    if new_value < value
-      new_name = name
-    else 
+    if new_value < value || new value = 0
       new_value = value
       new_name = name
     end
