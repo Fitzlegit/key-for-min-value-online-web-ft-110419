@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       new_value = value
       new_name = name
     else 
-      new value = value
+      new_value = value
       new_name = name
     end
   end
