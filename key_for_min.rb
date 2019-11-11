@@ -4,7 +4,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
     new_value = 0
-    new_name = ""
+    new_name = nil
   
   name_hash.collect do |name, value|
     if new_value == 0 || value < new_value
