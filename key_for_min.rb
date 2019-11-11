@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       binding.pry
     elsif new_value > value
       new_value = value
-      new_name << name
+      new_name = name
     end
   end
   new_name
