@@ -6,11 +6,11 @@ def key_for_min_value(name_hash)
     new_value = 0
     new_name = ""
   
-  name_hash.each do |name, value|
+  name_hash.collect do |name, value|
     if new_value = 0
       new_value = value
       #binding.pry
-    elsif new_value > value
+    else new_value > value
       new_value = value
       new_name = name
     end
