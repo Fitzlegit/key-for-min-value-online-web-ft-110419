@@ -7,9 +7,9 @@ def key_for_min_value(name_hash)
     new_name = ""
   
   name_hash.collect do |name, value|
-    binding.pry
     if new_value = 0
       new_value = value
+      binding.pry
     elsif new_value > value
       new_value = value
       new_name << name
